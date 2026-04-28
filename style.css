@@ -1,126 +1,46 @@
 body {
-    font-family: system-ui, sans-serif;
-    background: #f4f6f8;
-    display: flex;
-    justify-content: center;
-    padding-top: 60px;
-}
-
-/* MAIN BOX */
-.quiz-container {
-    background: #fff;
-    width: 520px;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-
-/* TITLE */
-h1 {
+    font-family: Arial, sans-serif;
     text-align: center;
-    margin-bottom: 20px;
+    background: #f4f4f4;
 }
 
-/* QUESTION */
-#question {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+.hidden {
+    display: none;
 }
 
-/* ALL BUTTONS BASE STYLE (KLJUČNO!) */
 button {
-    font-family: inherit;
-    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
     cursor: pointer;
-    transition: 0.2s;
 }
 
-/* ANSWERS */
 .answers button {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 12px;
-    border: 1px solid #ddd;
-    background: #fafafa;
-    text-align: left;
-    font-size: 15px;
+    display: block;
+    width: 60%;
+    margin: 10px auto;
 }
 
-.answers button:hover {
-    background: #eef2f5;
-}
-
-/* CORRECT / WRONG */
 .correct {
-    background: #d4edda !important;
-    border-color: #28a745 !important;
+    background-color: #4CAF50;
+    color: white;
 }
 
 .wrong {
-    background: #f8d7da !important;
-    border-color: #dc3545 !important;
-}
-
-/* NEXT BUTTON */
-#nextBtn {
-    margin-top: 15px;
-    width: 100%;
-    padding: 12px;
-    border: none;
-    background: #007bff;
+    background-color: #F44336;
     color: white;
 }
 
-#nextBtn:hover {
-    background: #0069d9;
-}
-
-/* END BUTTON (OUTSIDE DIV) */
-#endBtn {
-    margin-top: 20px;
-    width: 520px;
-    padding: 12px;
-    border: none;
-    background: #dc3545;
-    color: white;
-    border-radius: 12px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#endBtn:hover {
-    background: #b52a37;
-}
-
-/* NAVIGATION */
 #navBar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
     margin-bottom: 15px;
 }
 
 .navBtn {
-    flex: 1 0 22%;
-    padding: 6px;
+    margin: 2px;
     font-size: 12px;
-    border: 1px solid #ddd;
-    background: #f1f1f1;
 }
 
-.navBtn:hover {
-    background: #e2e6ea;
-}
-
-/* TIMER */
 #timer {
     font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* HIDDEN */
-.hidden {
-    display: none;
+    color: red;
 }
