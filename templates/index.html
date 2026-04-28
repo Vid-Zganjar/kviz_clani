@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Učni kviz</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- START MENU -->
+<div id="startScreen" class="quiz-container">
+    <h1>Izberi način</h1>
+
+    <button onclick="startQuiz('sequential')" class="modeBtn">
+        Učenje (1–250)
+    </button>
+
+    <button onclick="startQuiz('random')" class="modeBtn">
+        Random
+    </button>
+
+    <button onclick="startQuiz('competition')" class="modeBtn">
+        Tekmovanje (3 vprašanja)
+    </button>
+</div>
+
+<!-- QUIZ -->
+<div id="quizScreen" class="quiz-container hidden">
+
+    <h1>Učni kviz</h1>
+
+    <!-- TIMER -->
+    <div id="timer" class="hidden"></div>
+
+    <!-- NAVIGACIJA (1–20, 21–40...) -->
+    <div id="navBar" class="hidden"></div>
+
+    <!-- VPRAŠANJE -->
+    <div id="question">Nalagam vprašanje...</div>
+
+    <!-- ODGOVORI -->
+    <div class="answers">
+        <button onclick="answer('A')" id="A"></button>
+        <button onclick="answer('B')" id="B"></button>
+        <button onclick="answer('C')" id="C"></button>
+    </div>
+
+    <!-- NEXT -->
+    <button id="nextBtn" onclick="nextQuestion()" class="hidden">
+        Naslednje vprašanje
+    </button>
+
+    <!-- KONČAJ -->
+    <button onclick="endQuiz(true)" id="endBtn">
+        Končaj kviz
+    </button>
+
+    <!-- REZULTAT -->
+    <div id="result"></div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
