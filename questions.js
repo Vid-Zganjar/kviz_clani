@@ -1740,7 +1740,7 @@ let questions = [
     "A": "6",
     "B": "4",
     "C": "2",
-    "correct": "C"
+    "correct": "B"
   },
   {
     "q": "249. Člani A starost:",
