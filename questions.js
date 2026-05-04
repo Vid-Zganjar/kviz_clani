@@ -11,14 +11,14 @@ let questions = [
         "A": "pod 80.000",
         "B": "med 90.000 in 100.000",
         "C": "več kot 170.000",
-        "correct": "B"
+        "correct": "C"
     },
     {
         "q": "3.	Koliko prostovoljnih gasilskih društev (PGD in PIGD) je v Sloveniji?",
         "A": "pod 500",
         "B": "več kot 1300",
         "C": "okoli 700",
-        "correct": "C"
+        "correct": "B"
     }
     ,
     {
@@ -26,7 +26,7 @@ let questions = [
         "A": "prostovoljna gasilska društva, gasilske zveze, Gasilska zveza Slovenije",
         "B": "poklicna jedra, gasilske zveze, Gasilska zveza Slovenije",
         "C": "prostovoljna gasilska društva, javni gasilski zavodi, gasilske zveze, Gasilska zveza Slovenije",
-        "correct": "C"
+        "correct": "A"
     }
     ,
     {
@@ -126,7 +126,7 @@ let questions = [
         "A": "17",
         "B": "13",
         "C": "19",
-        "correct": "B"
+        "correct": "A"
     },
     {
         "q": "19. Kaj ureja Zakon o gasilstvu?",
